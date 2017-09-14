@@ -3,6 +3,4 @@
 
 
 ## resources:
-
-## todos:
-- [ ] unit test case
++ http://www.cnblogs.com/javaScriptYang/p/5684797.html

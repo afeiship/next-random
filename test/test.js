@@ -1,21 +1,15 @@
-var assert = require('assert');
 var nx = require('next-js-core2');
 require('../src/next-random');
 
-describe('next/random', function () {
 
-  it('nx.random', function () {
-    // (248ms)
-    var min = 3;
-    var max = 100;
-    var times = 10000000;
-    var result;
+test('nx.random', function () {
+  var obj1 = {name: 'fei'};
+  var obj2 = {email: '1290657123@qq.com'};
 
-    for (var i = 0; i < times; i++) {
-      result = nx.random(min, max);
-      assert.equal(result >= min && result < max, true);
-    }
+  var result = {};
 
-  });
+  nx.random(result, obj1, obj2);
 
+  expect(result.name, obj1.name).toBe(null);
 });
+

@@ -3,7 +3,7 @@
  * description: Create random number.
  * homepage: https://github.com/afeiship/next-random
  * version: 1.0.0
- * date: 2020-11-20 11:03:54
+ * date: 2020-11-20 11:04:33
  * license: MIT
  */
 

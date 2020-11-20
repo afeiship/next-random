@@ -1,15 +1,16 @@
 /*!
- * name: @feizheng/next-random
+ * name: @jswork/next-random
  * description: Create random number.
- * url: https://github.com/afeiship/next-random
- * version: 1.0.2
- * date: 2020-04-11 20:52:55
+ * homepage: https://github.com/afeiship/next-random
+ * version: 1.0.0
+ * date: 2020-11-20 11:03:54
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
+  var DEFAULT_OPTIONS = { context: global };
 
   nx.random = function (inMin, inMax) {
     var addition = inMax - inMin;
@@ -20,5 +21,3 @@
     module.exports = nx.random;
   }
 })();
-
-//# sourceMappingURL=next-random.js.map

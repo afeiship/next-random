@@ -13,7 +13,7 @@ npm install -S @jswork/next-random
 
 ## usage
 ```js
-import '@feizheng/next-random';
+import '@jswork/next-random';
 
 nx.random(1,100);
 // 1 ~ 99

@@ -5,7 +5,7 @@
   nx.random = function (inMin, inMax, inSize) {
     if (!inSize) return parseInt(Math.random() * (inMax - inMin), 10) + inMin;
     var result = [];
-    for (var i = 0; i < inSize * 2; i++) {
+    for (var i = 0; i < inSize * 10; i++) {
       var target = nx.random(inMin, inMax);
       if (result.includes(target)) continue;
       if (result.length === inSize) return result;

@@ -15,7 +15,8 @@
 
     test('nx.random should get a list no duplicates', () => {
       var list = nx.random(0, 100, 20);
-      // console.log(list);
+      console.log(list);
+      expect(list.length).toBe(20);
       expect(nx.unique(list).length === list.length).toBe(true);
     });
   });

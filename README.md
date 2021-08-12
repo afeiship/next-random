@@ -15,8 +15,19 @@ npm install -S @jswork/next-random
 ```js
 import '@jswork/next-random';
 
-nx.random(1,100);
-// 1 ~ 99
+// case1: get random
+nx.random(1,100);   // 1 ~ 99
+
+
+// case2: get a random list
+nx.random(1,100, 20);
+/*
+[
+  31, 33, 57, 42, 53, 34, 2,
+  17, 63, 46, 96, 81, 68, 5,
+  89, 73, 94, 58, 65, 41
+]
+*/
 ```
 
 ## license
